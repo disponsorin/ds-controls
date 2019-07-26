@@ -1,0 +1,146 @@
+@import "../../global/styles/variables.scss";
+
+:host {
+  box-sizing: border-box;
+}
+
+:host([disabled]) {
+  pointer-events: none;
+}
+
+button {
+  background-color: $primary-shade;
+  border: none;
+  cursor: pointer;
+
+  color: $white;
+  font-family: $font-family;
+  font-size: 14px;
+  line-height: 20px;
+
+  padding: 4px 12px;
+
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  transition: 
+    box-shadow .1s ease-in-out,
+    background-color .1s ease-in-out;
+
+  &:hover { 
+    background-color: $primary-light; 
+    box-shadow: 0 9px 15px -8px rgba(0, 0, 0, 0.35);
+  }
+
+  &:active { 
+    background-color: $primary-light; 
+    box-shadow: 0 6px 20px -3px rgba(0, 0, 0, 0.35);
+  }
+
+  &:disabled { opacity: 0.4; }
+
+  &:focus {
+    outline: none;
+  }
+
+
+}
+
+
+// Shape variations
+button {
+
+  &.rounded {
+    border-radius: 5px;
+  }
+
+  &.pill {
+    border-radius: 50px;
+  }
+}
+
+
+// Color variations
+button {
+
+  &.outlined {
+    transition: 
+      border .1s ease-in-out,
+      box-shadow .1s ease-in-out,
+      color .1s ease-in-out,
+      background-color .1s ease-in;
+
+    &:hover {
+      color: $white;
+      background-color: $primary-light; 
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+
+      border: 1px solid $primary-light;
+    }
+
+    &:active {
+      color: $white;
+      background-color: $primary-light; 
+      box-shadow: 0 6px 20px -3px rgba(0, 0, 0, 0.35);
+    }
+  }
+
+  &.secondary {
+    background-color: transparent;
+    color: $primary-shade;
+
+    border: 1px solid $primary-shade;
+
+  }
+
+  &.tertiary {
+    background-color: transparent;
+    color: $primary-shade;
+
+    border: 1px solid rgba(0, 0, 0, 0);
+  }
+
+  &.warning {
+    background-color: $accent-shade;
+    color: rgba(0, 0, 0, 0.8);
+
+    &:hover {
+      background-color: $accent-color;
+    }
+
+    &:active {
+      background-color: $accent-light;
+    }
+  }
+
+  &.success {
+    background-color: $green-color;
+    color: $white-color;
+  }
+
+  // &.accent {
+  //   background-color: $accent-shade;
+  //   color: $black;
+
+  //   &:hover {
+  //     background-color: $accent-color;
+  //   }
+  //   &:active {
+  //     background-color: $accent-light;
+  //   }
+  // }
+}
+
+
+// Size variations
+button {
+
+  &.small {
+    padding: 2px 8px;
+    font-size: 12px;
+  }
+  
+  &.large {
+    padding: 10px 20px;
+    font-size: 1.125rem;
+  }
+
+}
