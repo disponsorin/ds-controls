@@ -1,0 +1,1 @@
+import{p as s,b as e}from"./p-398e66a9.js";s().then(s=>e([["p-3gi8ojrn",[[1,"ds-button",{disabled:[516],type:[1],color:[1],shape:[1],size:[1]}]]],["p-idnsus02",[[1,"ds-table-base"]]],["p-mx6ogjkb",[[1,"ds-table-child"]]],["p-gvvvmbzm",[[1,"ds-table-header"]]],["p-m7pm2vyj",[[1,"ds-table-row"]]]],{resourcesUrl:s}));

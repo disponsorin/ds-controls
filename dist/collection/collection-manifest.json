@@ -1,0 +1,16 @@
+{
+  "entries": [
+    "components/ds-table/ds-table-base/ds-table-base.js",
+    "components/ds-button/ds-button.js",
+    "components/ds-table/ds-table-header/ds-table-header.js",
+    "components/ds-table/ds-table-row/ds-table-row.js",
+    "components/ds-table/ds-table-child/ds-table-child.js"
+  ],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "1.1.7",
+    "typescriptVersion": "3.5.2"
+  },
+  "collections": [],
+  "bundles": []
+}

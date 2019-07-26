@@ -1,0 +1,1 @@
+System.register(["./p-9f93cd3d.system.js"],function(t){"use strict";var e,n;return{setters:[function(t){e=t.r;n=t.h}],execute:function(){var r=function(){function t(t){e(this,t)}t.prototype.render=function(){return n("td",null,n("slot",null))};Object.defineProperty(t,"style",{get:function(){return""},enumerable:true,configurable:true});return t}();t("ds_table_child",r)}}});

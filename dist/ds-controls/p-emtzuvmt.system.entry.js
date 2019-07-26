@@ -1,0 +1,1 @@
+System.register(["./p-9f93cd3d.system.js"],function(t){"use strict";var e,r;return{setters:[function(t){e=t.r;r=t.h}],execute:function(){var n=function(){function t(t){e(this,t)}t.prototype.render=function(){return r("tr",null,r("slot",null))};Object.defineProperty(t,"style",{get:function(){return""},enumerable:true,configurable:true});return t}();t("ds_table_row",n)}}});

@@ -1,0 +1,1 @@
+import{r as e,h as t}from"./p-398e66a9.js";class r{constructor(t){e(this,t)}render(){return t("th",{class:"table-header"},t("slot",null))}static get style(){return".table-header{background-color:#f3f5f7;border-bottom:1px solid #e4e9ed}"}}export{r as ds_table_header};

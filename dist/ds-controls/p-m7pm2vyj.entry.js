@@ -1,0 +1,1 @@
+import{r,h as t}from"./p-398e66a9.js";class s{constructor(t){r(this,t)}render(){return t("tr",null,t("slot",null))}static get style(){return""}}export{s as ds_table_row};
